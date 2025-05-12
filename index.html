@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
 <header>
-    <nav class="bg-sky-800 border-gray-400 px-4 lg:px-6 py-2.5 dark:bg-gray-800 shadow-lg">
+    <nav class="bg-sky-800 border-gray-400 px-4 lg:px-6 py-2.5 shadow-lg">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="#" class="flex items-center">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-                <span class="self-center text-xl text-white font-semibold whitespace-nowrap dark:text-white">Raphael</span>
+                <span class="self-center text-xl text-white font-semibold whitespace-nowrap">Raphael</span>
             </a>
             <div class="flex items-center lg:order-2">
-                <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="mobile-menu-2" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                     <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -23,22 +24,22 @@
             <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
-                        <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Accueil</a>
+                        <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 " aria-current="page">Accueil</a>
                     </li>
                     <li>
-                        <a href="#mesdiplomes" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Mes dîplomes</a>
+                        <a href="#mesdiplomes" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Mes dîplomes</a>
                     </li>
                     <li>
-                        <a href="#mesprojets" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Mes projets</a>
+                        <a href="#mesprojets" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0">Mes projets</a>
                     </li>
                     <li>
-                        <a href="#mescompetences" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Mes compétences</a>
+                        <a href="#mescompetences" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 ">Mes compétences</a>
                     </li>
                     <li>
-                        <a href="#mesloisirs" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-100 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Mes loisirs</a>
+                        <a href="#mesloisirs" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-100 lg:p-0">Mes loisirs</a>
                     </li>
                     <li>
-                        <a href="#information" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-100 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        <a href="#information" class="block py-2 pr-4 pl-3 text-gray-100 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-100 lg:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,10 +47,10 @@
     </nav>
 </header>
 
-<section class="bg-sky-700 dark:bg-gray-900">
+<section class="bg-sky-700">
     <div class="py-8 px-4 block mx-auto max-w-screen-xl lg:py-16 lg:px-6 lg:flex ">
-        <div class="max-w-screen-md text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-bold text-white dark:text-white">Raphael Talarek</h2>
+        <div class="max-w-screen-md text-gray-500 sm:text-lg">
+            <h2 class="mb-4 text-4xl tracking-tight font-bold text-white">Raphael Talarek</h2>
             <p class="mb-4 font-light text-gray-300">Passionné par la technologie, je me suis orienté vers des études d'informatique et suis aujourd'hui en BUT informatique à Villeneuve-d'Ascq. Motivé à explorer de nouvelles facettes de cette passion et à contribuer à des projets innovants, je recherche un stage pour mettre en pratique les connaissances acquises au cours de ces deux années d'études. </p>
             <p class="mb-4 font-medium text-gray-300">Actuellement Pompier Volontaire, je serai m'adapter au travail d'équipe</p>
             <div class="relative inline-flex  group">
@@ -110,70 +111,176 @@
     </div>
 </section>
 <!-- component -->
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white ">
     <div class="container px-6 py-10 mx-auto justify-center items-center flex flex-col">
         <h1 class="font-bold h-min text-center text-3xl bg-sky-800 p-5 rounded-2xl text-white" id="mesprojets">Mes Projets</h1>
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+            <div class="p-8 space-y-3 border-2 border-blue-400 ">
+                <span class="inline-block text-blue-500 ">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Site de E-Commerce</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize ">Site de E-Commerce</h1>
 
-                <p class="text-gray-500 dark:text-gray-300">
+                <p class="text-gray-500 ">
                     J'ai réalisé un site e-commerce en PHP, HTML, CSS et JavaScript, avec une base de données MySQL. Ce projet, bien qu'incomplet, m'a permis d'acquérir de nouvelles compétences.
                 </p>
 
-                <a href="https://www.unfilautambour.fr" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                <a href="https://www.unfilautambour.fr" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </a>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+            <div class="p-8 space-y-3 border-2 border-blue-400">
+                <span class="inline-block text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Les projets liés au BUT</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize">Les projets liés au BUT</h1>
 
-                <p class="text-gray-500 dark:text-gray-300">
+                <p class="text-gray-500">
                     Depuis le début de mon BUT, j'ai réalisé plusieurs projets, notamment un jeu en iJava au premier semestre, ou encore une applciation de nuage de point... Ces projets m'ont permis de mettre en pratique les connaissances acquises en cours. Et d'avoir du concret.
                 </p>
 
-                <a href="#" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                <a href="#" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </a>
             </div>
 
-            <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-                <span class="inline-block text-blue-500 dark:text-blue-400">
+            <div class="p-8 space-y-3 border-2 border-blue-400">
+                <span class="inline-block text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Étudiant Entrepreneur</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize">Étudiant Entrepreneur</h1>
 
-                <p class="text-gray-500 dark:text-gray-300">
+                <p class="text-gray-500">
                     J'ai participé au programme Étudiant Entrepreneur, où j'ai pu développer un projet de création d'entreprise. Ce projet, bien que non abouti, m'a permis de découvrir le monde de l'entrepreneuriat.
                 </p>
 
-                <a href="https://sandbox.septhime.fr" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                <a href="https://sandbox.septhime.fr" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full hover:underline hover:text-blue-600">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </a>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="container px-6 py-10 mx-auto flex flex-wrap justify-center items-stretch gap-4">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
+        <a href="#">
+            <img class="rounded-t-lg h-48 w-full object-cover" src="img/classer_donnee2.png" alt="Illustration de l'algorithme KNN" />
+        </a>
+        <div class="p-5 flex-1 flex flex-col">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Algorithme KNN</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 flex-grow">
+                Ce projet consiste à déterminer, selon un algorithme, la possibilité d'appartenance d'un point ajouté.
+            </p>
+            <h6 class="text-lg font-semibold">Savoir-être requis :</h6>
+            <ul class="list-disc pl-4 mb-3 text-gray-700">
+                <li>Rigueur et précision</li>
+                <li>Esprit analytique</li>
+                <li>Capacité à résoudre des problèmes</li>
+            </ul>
+            <h6 class="text-lg font-semibold">Compétences acquises :</h6>
+            <ul class="list-disc pl-4 text-gray-700">
+                <li>Maîtrise des algorithmes de classification</li>
+                <li>Utilisation des bibliothèques de Machine Learning</li>
+                <li>Analyse et traitement des données</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
+        <a href="#">
+            <img class="rounded-t-lg h-48 w-full object-cover" src="https://play-lh.googleusercontent.com/O79n3WlPqVEd88IZupxnBX3rYAiHCaBR7ozb9cgoz3S6SihPzMH8qo0rLWoEYXpYc6M=w526-h296" alt="Illustration de Rat.IO" />
+        </a>
+        <div class="p-5 flex-1 flex flex-col">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Rat.IO</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 flex-grow">
+                Ce projet consiste à développer en JavaScript côté client et en Node.js côté serveur. Il fallait reproduire Agar.io, un jeu disponible sur Internet, tout en ajoutant des spécificités comme un décor supplémentaire.
+            </p>
+            <h6 class="text-lg font-semibold">Savoir-être requis :</h6>
+            <ul class="list-disc pl-4 mb-3 text-gray-700">
+                <li>Créativité et innovation</li>
+                <li>Esprit collaboratif</li>
+                <li>Résolution de problèmes techniques</li>
+            </ul>
+            <h6 class="text-lg font-semibold">Compétences acquises :</h6>
+            <ul class="list-disc pl-4 text-gray-700">
+                <li>Développement en JavaScript et Node.js</li>
+                <li>Gestion des sockets pour le multijoueur</li>
+                <li>Optimisation des performances d'un jeu en ligne</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
+        <a href="#">
+            <img class="rounded-t-lg h-48 w-full object-cover" src="img/imageclicker.png" alt="Illustration du projet Agile" />
+        </a>
+        <div class="p-5 flex-1 flex flex-col">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Projet Agile</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 flex-grow">
+                Ce projet avait pour but de nous initier à la méthode Agile tout en créant un jeu. Nous avons développé un clicker qui rapporte des bitcoins et permet d'améliorer la production.
+            </p>
+            <h6 class="text-lg font-semibold">Savoir-être requis :</h6>
+            <ul class="list-disc pl-4 mb-3 text-gray-700">
+                <li>Adaptabilité</li>
+                <li>Travail en équipe</li>
+                <li>Autonomie et gestion du temps</li>
+            </ul>
+            <h6 class="text-lg font-semibold">Compétences acquises :</h6>
+            <ul class="list-disc pl-4 text-gray-700">
+                <li>Application de la méthode Agile</li>
+                <li>Développement d'un jeu de type clicker</li>
+                <li>Gestion des ressources et évolution du jeu</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col h-full">
+        <a href="#">
+            <img class="rounded-t-lg h-48 w-full object-cover" src="img/deplo.jpg" alt="Illustration du déploiement d'une application" />
+        </a>
+        <div class="p-5 flex-1 flex flex-col">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Déploiement d'une Application</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 flex-grow">
+                Ce projet avait pour but de déployer une application. Il nécessitait la création et la configuration d'une machine virtuelle afin qu'elle puisse interagir avec d'autres composants.
+            </p>
+            <h6 class="text-lg font-semibold">Savoir-être requis :</h6>
+            <ul class="list-disc pl-4 mb-3 text-gray-700">
+                <li>Organisation et gestion de projet</li>
+                <li>Capacité à résoudre des problèmes</li>
+                <li>Esprit critique et réflexion</li>
+            </ul>
+            <h6 class="text-lg font-semibold">Compétences acquises :</h6>
+            <ul class="list-disc pl-4 text-gray-700">
+                <li>Déploiement et configuration d'une machine virtuelle</li>
+                <li>Optimisation des performances de l'application</li>
+                <li>Gestion des interactions avec divers composants</li>
+            </ul>
         </div>
     </div>
 </section>
@@ -383,29 +490,29 @@
 
 </main>
 <main>
-    <section class="bg-gray-50 dark:bg-gray-800">
+    <section class="bg-gray-50">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
             <!-- Row -->
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Pompier volontaire</h2>
+                <div class="text-gray-500 sm:text-lg">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Pompier volontaire</h2>
                     <p class="mb-8 font-light lg:text-xl">Bien qu'il s'agisse d'un engagement bénévole, mon expérience en tant que pompier volontaire m'a offert une première immersion dans le monde du travail. J'ai ainsi pu développer des compétences professionnelles clés telles que le travail en équipe, l'adaptation à des situations d'urgence et le sens des responsabilités, tout en découvrant les enjeux du service public. </p>
                     <!-- List -->
-                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Travail en équipe</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">Travail en équipe</span>
                         </li>
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Gestion du stress et prise de décision rapide</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">Gestion du stress et prise de décision rapide</span>
                         </li>
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">L'adaptation</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">L'adaptation</span>
                         </li>
                     </ul>
                 </div>
@@ -414,25 +521,25 @@
             <!-- Row -->
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="resources/acces.jpg" alt="feature image 2">
-                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Stage en marquage publicitaire</h2>
+                <div class="text-gray-500 sm:text-lg">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900">Stage en marquage publicitaire</h2>
                     <p class="mb-8 font-light lg:text-xl">En troisième, j'ai effectué un stage au sein de l'entreprise Accès à Phalempin où j'ai découvert le monde du marquage publicitaire. J'ai notamment participé à des rendez-vous clients et appris les fondamentaux de ce métier.</p>
                     <!-- List -->
-                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7">
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Sens de la créativité</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">Sens de la créativité</span>
                         </li>
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Rigueur</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">Rigueur</span>
                         </li>
                         <li class="flex space-x-3">
                             <!-- Icon -->
-                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Autonomie</span>
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span class="text-base font-medium leading-tight text-gray-900">Autonomie</span>
                         </li>
                     </ul>
                 </div>
@@ -441,16 +548,16 @@
     </section>
 </main>
 <main>
-    <div class="h-screen flex justify-center items-center dark:bg-gray-800">
+    <div class="h-screen flex justify-center items-center">
         <div class="max-w-xl mx-auto w-full">
 
             <!-- To achieve the desired progress, you can update the 'stroke-dasharray' property. -->
-            <h4 class="text-3xl md:text-5xl dark:text-white font-bold mb-6">Niveau de langue</h4>
+            <h4 class="text-3xl md:text-5xl font-bold mb-6">Niveau de langue</h4>
 
             <div class="mb-7">
                 <div class="flex justify-between py-1">
-                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Anglais</span>
-                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">50%</span>
+                    <span class="text-base text-gray-lite font-semibold">Anglais</span>
+                    <span class="text-base font-semibold text-gray-lite pr-5">50%</span>
                 </div>
                 <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                     <path class="rc-progress-line-trail" d="M 0.5,0.5
@@ -465,8 +572,8 @@
 
             <div class="mb-7">
                 <div class="flex justify-between py-1">
-                    <span class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Espagnol </span>
-                    <span class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">60%</span>
+                    <span class="text-base text-gray-lite font-semibold ">Espagnol </span>
+                    <span class="text-base font-semibold text-gray-lite pr-5 ">60%</span>
                 </div>
                 <svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
                     <path class="rc-progress-line-trail" d="M 0.5,0.5
