@@ -1,74 +1,97 @@
 <header>
 
 <!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  <<< Author notes: Portfolio BUT3 Communication >>>
+  Ce README présente la structure et les attendus du portfolio numérique professionnel.
 -->
 
-# GitHub Pages
+# Portfolio professionnel – BUT3
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked the file path. Previous version checked the front matter formatting.
--->
-
-## Step 4: Create a blog post
-
-_Your home page is looking great! :cowboy_hat_face:_
-
-GitHub Pages uses Jekyll. In Jekyll, we can create a blog by using specially named files and frontmatter. The files must be named `_posts/YYYY-MM-DD-title.md`. You must also include `title` and `date` in your frontmatter.
-
-**What is _frontmatter_?**: The syntax Jekyll files use is called YAML frontmatter. It goes at the top of your file and looks something like this:
-
-```yml
----
-title: "Welcome to my blog"
-date: 2019-01-20
----
-```
-
-For more information about configuring front matter, see the [Jekyll frontmatter documentation](https://jekyllrb.com/docs/frontmatter/).
-
-### :keyboard: Activity: Create a blog post
-
-1. Browse to the `my-pages` branch.
-1. Click the `Add file` dropdown menu and then on `Create new file`.
-1. Name the file `_posts/YYYY-MM-DD-title.md`.
-1. Replace the `YYYY-MM-DD` with today's date, and change the `title` of your first blog post if you'd like.
-   > If you do edit the title, make sure there are hyphens between your words.
-   > If your blog post date doesn't follow the correct date convention, you'll receive an error and your site won't build. For more information, see "[Page build failed: Invalid post date](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/troubleshooting-jekyll-build-errors-for-github-pages-sites)".
-1. Type the following content at the top of your blog post:
-   ```yaml
-   ---
-   title: "YOUR-TITLE"
-   date: YYYY-MM-DD
-   ---
-   ```
-1. Replace `YOUR-TITLE` with the title for your blog post.
-1. Replace `YYYY-MM-DD` with today's date.
-1. Type a quick draft of your blog post. Remember, you can always edit it later.
-1. Commit your changes to your branch.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+_Mettez en valeur vos compétences, votre expérience et votre posture professionnelle._
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+## 1️⃣ Présentation et positionnement professionnel
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Je m’appelle Raphaël Talarek, actuellement étudiant en troisième année de BUT Informatique. Mon projet professionnel s’oriente vers le développement web et la gestion de projets numériques. Je vise un poste de développeur fullstack ou de chef de projet technique à court terme, avec l’ambition d’évoluer vers des responsabilités de management d’équipe à moyen terme.
 
-</footer>
+---
+
+## 2️⃣ Présentation de l’expérience en alternance
+
+### Contexte
+J’ai réalisé mon alternance chez [Nom de l’entreprise], une société spécialisée dans [secteur d’activité, ex : la transformation digitale des entreprises].
+
+### Missions confiées
+- Développement d’applications web (front-end et back-end)
+- Participation à la conception technique et fonctionnelle de nouveaux modules
+- Mise en place de tests automatisés et documentation technique
+- Contribution à l’amélioration continue des processus de développement
+
+### Degré d’autonomie
+J’ai travaillé en autonomie sur certains modules, tout en collaborant étroitement avec l’équipe de développement et sous la supervision d’un chef de projet.
+
+### Interactions
+- Travail quotidien avec l’équipe de développeurs (revues de code, pair programming)
+- Échanges réguliers avec la hiérarchie pour le suivi d’avancement
+- Présentation de solutions techniques à des utilisateurs internes
+
+---
+
+## 3️⃣ Compétences techniques (hard skills)
+
+| Compétence         | Contexte d’utilisation                | Ce que je sais faire                  | Niveau        |
+|--------------------|--------------------------------------|---------------------------------------|--------------|
+| HTML/CSS/JS        | Développement d’interfaces web       | Création de sites responsives         | Avancé       |
+| Python             | Scripts d’automatisation, API        | Développement d’API REST, scripts     | Intermédiaire|
+| React              | Front-end web                        | Composants dynamiques, hooks          | Intermédiaire|
+| Git                | Gestion de versions                  | Branches, merge, résolution de conflits| Avancé      |
+| Docker             | Conteneurisation d’applications      | Création et gestion de containers     | Débutant     |
+| Méthode Agile      | Gestion de projet                    | Daily, sprint, Kanban                 | Intermédiaire|
+
+---
+
+## 4️⃣ Compétences comportementales (soft skills)
+
+### Manière d’être
+- **Adaptabilité** : Lors d’un changement de priorités en cours de sprint, j’ai su réorganiser mon travail et rester efficace.
+- **Gestion du stress** : Face à des deadlines serrées, j’ai gardé mon sang-froid et priorisé les tâches essentielles.
+- **Engagement** : J’ai proposé des améliorations sur le process de revue de code, adoptées par l’équipe.
+
+### Manière de communiquer
+- **Écoute active** : J’ai reformulé les besoins des utilisateurs pour clarifier les attentes lors des réunions.
+- **Assertivité** : J’ai su exprimer mes désaccords de façon constructive lors de choix techniques.
+- **Prise en compte des feedbacks** : Après un retour négatif sur une première version, j’ai su ajuster rapidement mon travail.
+
+### Manière de travailler avec les autres
+- **Travail en équipe** : Participation active aux réunions d’équipe et entraide sur les tickets bloquants.
+- **Coopération** : J’ai accompagné un nouveau collègue dans sa prise de poste.
+- **Gestion des désaccords** : J’ai facilité la résolution d’un conflit sur le choix d’un framework en proposant une solution de compromis.
+- **Initiative** : J’ai pris l’initiative de documenter un module complexe pour faciliter la maintenance.
+
+---
+
+## 5️⃣ Analyse réflexive : connaissance et conscience de soi
+
+Mon expérience en alternance m’a permis de mieux cerner mes points forts :
+- Capacité à apprendre rapidement de nouveaux outils
+- Esprit d’équipe et sens du collectif
+- Rigueur dans la gestion de projet
+
+J’ai aussi identifié des axes de progrès :
+- Approfondir mes compétences DevOps (Docker, CI/CD)
+- Développer mon leadership en animant des réunions
+- Améliorer ma gestion du temps sur les projets longs
+
+Pour continuer à évoluer, je souhaite suivre des formations complémentaires et solliciter des feedbacks réguliers de mes pairs et encadrants.
+
+---
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/raphaeltalarek)
+- Email : raphael.talarek@email.com
+
+---
+
+Ce portfolio est mis à jour régulièrement pour refléter mon évolution professionnelle.
